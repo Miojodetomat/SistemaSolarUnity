@@ -22,7 +22,7 @@ public class RotateAround : MonoBehaviour {
 			double deltaZ = target.transform.position.z - this.transform.position.z;
 			if(deltaX != 0)
 			{
-				//set the axis to the vector perpendicular to the orbit's plane
+				//set the axis of the vector perpendicular to the orbit's plane
 				//y-axis positive
 				double orbitPlaneAngle = Math.Atan(deltaY/deltaX);
 				axis = new Vector3((float)Math.Sin(orbitPlaneAngle)*(-1), (float)Math.Cos(orbitPlaneAngle), 0);
@@ -38,7 +38,7 @@ public class RotateAround : MonoBehaviour {
 			//Euclidian Distance
 			double orbitRadius = Math.Sqrt(deltaX*deltaX + deltaY*deltaY + deltaZ*deltaZ);
 			//3rd Kepler's Law when K=speed
-			speed = (float) (2*Math.PI*orbitRadius/Math.Sqrt(orbitRadius*orbitRadius*orbitRadius)) * speed;
+			speed = (float) (2*Math.PI/Math.Sqrt(orbitRadius*orbitRadius*orbitRadius)) * speed;
 		}
 		else
 		{

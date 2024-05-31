@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System;
 
 public class ChangeLookAtTarget : MonoBehaviour {
 
@@ -17,6 +18,5 @@ public class ChangeLookAtTarget : MonoBehaviour {
 	void OnMouseDown () {
 		// change the target of the LookAtTarget script to be this gameobject.
 		LookAtTarget.target = target;
-		Camera.main.fieldOfView = 50*target.transform.localScale.x;
 	}
 }

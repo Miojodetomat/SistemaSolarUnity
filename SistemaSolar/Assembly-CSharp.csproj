@@ -65,8 +65,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\RotateAround.cs" />
+    <Compile Include="Assets\Scripts\ChangeAudioSource.cs" />
     <Compile Include="Assets\Scripts\ChangeLookAtTarget.cs" />
     <Compile Include="Assets\Scripts\LookAtTarget.cs" />
+    <Compile Include="Assets\Scripts\AudioManager.cs" />
+    <Compile Include="Assets\Scripts\Sound.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Shaders\SubShaderAneisSaturno.shader" />
