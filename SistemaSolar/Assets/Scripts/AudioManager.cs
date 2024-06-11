@@ -4,7 +4,7 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
     public Sound[] sounds;
-    // Start is called before the first frame update
+    
     void Awake()
     {
         foreach(Sound s in sounds)
@@ -16,10 +16,10 @@ public class AudioManager : MonoBehaviour
             s.source.loop = s.loop;
         }
     }
-
+    // Start is called before the first frame update
     void Start()
     {
-        Play("Space");
+        Play("Star");
     }
 
     public void Play(string name)

@@ -626,9 +626,9 @@ MonoBehaviour:
       floating: 1
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 1018, y: 456}
+      snapOffset: {x: -244, y: -177}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 3
       id: UnityEditor.SceneViewCameraOverlay
       index: 0
       layout: 4
@@ -658,9 +658,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 226.54796, y: -192.89761, z: 268.32843}
+    m_Target: {x: -203.14204, y: -78.08959, z: -341.20316}
     speed: 2
-    m_Value: {x: 226.54796, y: -192.89761, z: 268.32843}
+    m_Value: {x: -203.14204, y: -78.08959, z: -341.20316}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -706,13 +706,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.24139969, y: 0.34356424, z: -0.091318145, w: 0.9031786}
+    m_Target: {x: -0.02297449, y: 0.9630188, z: -0.08845431, w: -0.25423452}
     speed: 2
-    m_Value: {x: 0.23850827, y: 0.34512663, z: -0.09062704, w: 0.90321}
+    m_Value: {x: -0.022946257, y: 0.96383005, z: -0.08998535, w: -0.24981524}
   m_Size:
-    m_Target: 221.92758
+    m_Target: 231.91432
     speed: 2
-    m_Value: 221.92758
+    m_Value: 231.91432
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -848,7 +848,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 216
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -907,14 +907,14 @@ MonoBehaviour:
   m_StartGridSize: 16
   m_LastFolders: []
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Windows\Documents\Jogos Digitais\SistemaSolarUnity\SistemaSolar
+  m_LastProjectPath: C:\Users\Windows\Documents\Cotuca\Jogos Digitais\SistemaSolarUnity\SistemaSolar
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: a26b0000
     m_LastClickedID: 27554
-    m_ExpandedIDs: 00000000945b0000965b0000985b00009a5b0000
+    m_ExpandedIDs: 000000009c5b00009e5b0000a05b0000a25b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -939,10 +939,10 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 438}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: ffffffff00000000945b0000965b0000985b00009a5b0000
+    m_ExpandedIDs: ffffffff000000009c5b00009e5b0000a05b0000a25b0000f45b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1037,7 +1037,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 92deffffe2deffff2ae0ffffaee7fffffee7ffff2ae9ffffeef3ffff3ef4ffff82f5ffff30fbffff605e0000b65e0000d05e0000f45e00005a5f000076650000
+      m_ExpandedIDs: 30fbffffe45900001a5b0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
